@@ -1,11 +1,9 @@
 # ML Platform Workshop
 
-This repo contains example code for a (very basic) ML platform.
+This repo contains example code for a (very basic) ML platform. I followed this tutorial on Youtube, and give them credit for the instruction. This is my version of their work.
 
  * The **model-template** directory contains an example for a Cookiecutter-based template that data scientists can clone to start a new project.
  * The **infra** directory contains Pulumi code that spins up the shared infrastructure of the ML platform, such as Kubernetes, MLFlow, etc.
-
-<p align="center">Made with :heart: by <a href="https://www.aporia.com?utm_source=github&utm_medium=github&utm_campaign=mlplatform-workshop" target="_blank">Aporia</a></p>
 
 ## The YouTube Video
 
@@ -31,12 +29,8 @@ We hope this repo can help you get started with building your own ML platform ‚ù
 * [Traefik](https://traefik.io/) - API gateway
 * [Poetry](https://python-poetry.org/) - Python dependency management
 
-When building your own ML platform, do not take these tools for granted! [Check out alternatives](https://mlops.toys) and find the best tools that solve each one of your problems.
 
-
-## What's missing from this?
-
-Well... a lot actually. Here's a partial list:
+Here's a partial list of missing items from project:
 
 * HTTPS & Authentication
 * Environments (staging, production)
@@ -44,5 +38,3 @@ Well... a lot actually. Here's a partial list:
 * Model input & validation
 * Training orchestration
 * and probably much more!
-
-We would love your help!
